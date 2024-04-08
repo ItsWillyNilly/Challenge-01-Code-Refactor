@@ -1,13 +1,16 @@
+/* Universal selector that applies to everything on the page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Background color for the webpage. */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header class */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,14 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* h1 modification for the header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Modification for the letters SEO in the company title at the top of the page */
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* header div content for the text in content and benefits sections of the page. also modifies unordered lists and listed items. */
 
 .header div {
     padding-top: 15px;
@@ -41,15 +48,18 @@ body {
     margin-left: 25px;
 }
 
+/* modification to links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* modification to paragraph */
 p {
     font-size: 16px;
 }
 
+/*The large image at the top of the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +69,7 @@ p {
     background-position: center;
 }
 
+/* where content should be placed with specifications to margin on the left/right */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,6 +80,7 @@ p {
     margin-left: 25px;
 }
 
+/* content class with specifications to the width, how its displayed on the page and a modification to the left side margin */
 .content {
     width: 75%;
     display: inline-block;
@@ -86,6 +98,13 @@ p {
     background-color: #2589bd;
 }
 
+.benefitsBody {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* benefitsBody stylizes the text and margins of the benefits text and headers. It replaces the following code...
+
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -98,8 +117,16 @@ p {
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; 
 }
+*/
+
+#h3Benefits {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*h3benefits aligns text and creates bottom margins for the sub headers on the benefits sections of the page. It replaces the following code...
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -115,6 +142,15 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
+
+#benefitsImg {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*benefitsImg sets the size for the benefits icons. It replaces the following code...
 
 .benefit-lead img {
     display: block;
@@ -133,6 +169,18 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
+
+.leftSideContent {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*leftSideContent creates margin and padding for the boxes, images, and text for the content. It replaces the folloring code
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -160,6 +208,13 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
+
+#contentImg {
+    max-height: 200px;
+}
+
+/* contentImg sets the max height for the 3 content images replaces the following code
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -172,6 +227,14 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
+
+#h2Content{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* h2Content provides CSS for the headers on the content on the right side and replaces the following code
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -187,6 +250,10 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
+
+
+/*The following is CSS code for the footer section of the website*/
 
 .footer {
     padding: 30px;
